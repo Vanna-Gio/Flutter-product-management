@@ -1,0 +1,14 @@
+# Node
+node_modules/
+.env
+npm-debug.log
+
+# Flutter
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.packages
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
