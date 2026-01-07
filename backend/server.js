@@ -5,6 +5,8 @@ const path = require('path');
 const authRoutes = require('./routes/auth.routes');
 const categoryRoutes = require('./routes/category.routes');
 const productRoutes = require('./routes/product.routes');
+const uploadRoutes = require('./routes/upload.routes');
+
 
 
 const app = express();
@@ -15,7 +17,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use('/api/auth', authRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/products', productRoutes);
-
+app.use('/api/upload', uploadRoutes);
 
 // Test route
 app.get('/', (req, res) => {
