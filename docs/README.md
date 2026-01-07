@@ -1,6 +1,5 @@
 
 
-````md
 # Flutter Product Management – Coding Test
 
 This project is a full-stack Flutter application with a Node.js backend and SQL Server database.
